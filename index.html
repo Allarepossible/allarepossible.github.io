@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Авторский дизайн проект для вашего дома</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script type="module" crossorigin src="/assets/index-BAIZw8b8.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CnHMMrjs.css">
+    <script type="module" crossorigin src="/assets/index-D9UesMsk.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DQjwnHH8.css">
   </head>
   <body class="body">
     <!-- Шапка -->
@@ -41,10 +41,62 @@
         <div class="header__right">
           <a class="header__phone" href="tel:+79999999999">+7 (999) 999-99-99</a>
           <button id="feedback-btn" class="header__button">Оставить заявку</button>
-          <div class="header__burger"></div>
+          <div class="header__burger" id="burger-header"></div>
         </div>
-      </header>
 
+      </header>
+      <div id="header-menu" class="header__burger-menu">
+        <div class="footer__select">
+          <div class="footer__select-items">
+            <div class="footer__select-selected">Главная страница</div>
+            <a class="footer__select-item" href="#">Проекты</a>
+            <a class="footer__select-item" href="#">Ведение проектов</a>
+            <a class="footer__select-item" href="#">Процесс работы</a>
+            <a class="footer__select-item" href="#">Прайс-лист</a>
+            <a class="footer__select-item" href="#">Отзывы</a>
+            <a class="footer__select-item" href="#">Услуги</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__select-items">
+              <div class="footer__select-selected">Портфолио</div>
+              <a class="footer__select-item" href="#">Дизайн</a>
+              <a class="footer__select-item" href="#">Архитектура</a>
+              <a class="footer__select-item" href="#">Ландшафт</a>
+            </div>
+            <div class="footer__select-items">
+              <div class="footer__select-selected">Другое</div>
+              <a class="footer__select-item" href="#">О нас</a>
+              <a class="footer__select-item" href="#">Контакты</a>
+              <a class="footer__select-item" href="#">Блог</a>
+              <a class="footer__select-item" href="#">Акции</a>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <img src="/assets/banner-rzzKmqad.jpg" alt="" class="banner__image">
+          <div class="banner__dots dots">
+            <div class="banner__dot dot"></div>
+            <div class="banner__dot dot"></div>
+            <div class="banner__dot dot"></div>
+          </div>
+          <div class="banner__teaser">Один шаг</div>
+          <div class="banner__title">Ключ к твоей мечте</div>
+          <div class="banner__amount">24%</div>
+          <div class="banner__description">Шальная скидка для новых клиентов</div>
+          <button class="banner__button white">Хочу консультацию</button>
+        </div>
+        <div class="manager">
+          <img class="manager__photo" src="/assets/team2-4KsdnBeg.png" alt=""/>
+          <div class="manager__info">
+            <div class="manager__name">Иванова Анастасия</div>
+            <div class="manager__description">В течении 15 минут помогу с решением любого вопроса</div>
+          </div>
+          <div class="manager__contact">
+            <button class="mail"></button>
+            <button class="phone"></button>
+          </div>
+        </div>
+      </div>
       <main>
         <div class="main-slider" id="mainslider">
           <div class="main-slider__slide first">
@@ -85,10 +137,10 @@
               <div class="main-slider__area">Ландшафт</div>
             </div>
           </div>
-          <div class="main-slider__dots">
-            <div class="main-slider__dot"></div>
-            <div class="main-slider__dot"></div>
-            <div class="main-slider__dot"></div>
+          <div class="main-slider__dots dots">
+            <div class="main-slider__dot dot"></div>
+            <div class="main-slider__dot dot"></div>
+            <div class="main-slider__dot dot"></div>
           </div>
         </div>
         <div class="info-block">
@@ -437,11 +489,42 @@
               <button class="tab" data-filter="houzz">Houzz.ru</button>
             </div>
           </div>
+          <div class="reviews-buttons__select">
+            <div class="reviews-buttons__select-item reviews-buttons__select-selected" data-filter="all">
+              <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.25%207.5V18.75H7.5V13.75C7.5%2012.3693%208.61929%2011.25%2010%2011.25C11.3807%2011.25%2012.5%2012.3693%2012.5%2013.75V18.75H18.75V7.5L10%200L1.25%207.5Z'%20fill='white'/%3e%3c/svg%3e" /> 5.0&nbsp;&nbsp;&nbsp;Все отзывы
+            </div>
+            <div class="reviews-buttons__select-items">
+              <div
+                class="reviews-buttons__select-item sld-btn"
+                data-filter="yandex"
+                data-value="yandex"
+              >
+                Яндекс Услуги
+              </div>
+              <div
+                class="reviews-buttons__select-item sld-btn"
+                data-filter="profi"
+                data-value="profi"
+              >
+                Profi.ru
+              </div>
+              <div
+                class="reviews-buttons__select-item sld-btn"
+                data-filter="houzz"
+                data-value="houzz"
+              >
+                Houzz.ru
+              </div>
+            </div>
+            <input type="hidden" name="reviews-buttons__select-value" class="reviews-buttons__select-value" />
+          </div>
+        </div>
 
           <div class="swiper-container reviews-slider">
             <div class="swiper-wrapper">
               <!-- Отзывы будут добавлены динамически -->
             </div>
+            <div class="swiper-scrollbar"></div>
           </div>
 
           <div class="navigation">
@@ -530,7 +613,7 @@
             </div>
           </div>
           <div class="accordion-item">
-            <div class="accordion-header accordion-open">
+            <div class="accordion-header">
               Какие мои гарантии по времени и деньгам работая с вами?
             </div>
             <div class="accordion-body">
