@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Авторский дизайн проект для вашего дома</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script type="module" crossorigin src="/assets/index-D9UesMsk.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DQjwnHH8.css">
+    <script type="module" crossorigin src="/assets/index-ChJtFcAp.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DryNtfag.css">
   </head>
   <body class="body">
     <!-- Шапка -->
@@ -40,10 +40,11 @@
 
         <div class="header__right">
           <a class="header__phone" href="tel:+79999999999">+7 (999) 999-99-99</a>
-          <button id="feedback-btn" class="header__button">Оставить заявку</button>
+          <button id="feedback-btn" class="open-popup header__button" data-popup="application">
+            Оставить заявку
+          </button>
           <div class="header__burger" id="burger-header"></div>
         </div>
-
       </header>
       <div id="header-menu" class="header__burger-menu">
         <div class="footer__select">
@@ -73,7 +74,7 @@
           </div>
         </div>
         <div class="banner">
-          <img src="/assets/banner-rzzKmqad.jpg" alt="" class="banner__image">
+          <img src="/assets/banner-rzzKmqad.jpg" alt="" class="banner__image" />
           <div class="banner__dots dots">
             <div class="banner__dot dot"></div>
             <div class="banner__dot dot"></div>
@@ -86,10 +87,12 @@
           <button class="banner__button white">Хочу консультацию</button>
         </div>
         <div class="manager">
-          <img class="manager__photo" src="/assets/team2-4KsdnBeg.png" alt=""/>
+          <img class="manager__photo" src="/assets/team2-4KsdnBeg.png" alt="" />
           <div class="manager__info">
             <div class="manager__name">Иванова Анастасия</div>
-            <div class="manager__description">В течении 15 минут помогу с решением любого вопроса</div>
+            <div class="manager__description">
+              В течении 15 минут помогу с решением любого вопроса
+            </div>
           </div>
           <div class="manager__contact">
             <button class="mail"></button>
@@ -171,8 +174,12 @@
               только индивидуальный подход и полное внимание к пожеланиям каждого клиента
             </div>
             <div class="info-block__actions">
-              <button class="info-block__count white">Рассчитать стоимость</button>
-              <button class="info-block__ask">Задать вопрос</button>
+              <button class="info-block__count white open-popup" data-popup="price">
+                Рассчитать стоимость
+              </button>
+              <button class="info-block__ask open-popup" data-popup="question">
+                Задать вопрос
+              </button>
             </div>
           </div>
         </div>
@@ -294,7 +301,7 @@
                     Перед началом каждого проекта мы составляем тщательное Техническое задание по
                     всем позициям и потребностям каждого заказчика.
                   </div>
-                  <button class="white info__action">Хочу консультацию</button>
+                  <button class="white info__action open-popup" data-popup="consult">Хочу консультацию</button>
                 </div>
                 <div class="info__block" id="visual">
                   <img src="/assets/golf2-HBW0e_yx.jpg" alt="" class="info__image" />
@@ -305,7 +312,6 @@
                     Перед началом каждого проекта мы составляем тщательное Техническое задание по
                     всем позициям и потребностям каждого заказчика.
                   </div>
-                  <button class="white info__action">Хочу консультацию</button>
                 </div>
                 <div class="info__block" id="project">
                   <img src="/assets/nov1-Bd-jvQ1b.jpg" alt="" class="info__image" />
@@ -316,7 +322,6 @@
                     Перед началом каждого проекта мы составляем тщательное Техническое задание по
                     всем позициям и потребностям каждого заказчика.
                   </div>
-                  <button class="white info__action">Хочу консультацию</button>
                 </div>
                 <div class="info__block" id="budget">
                   <img src="/assets/nov3-BRSQQ06X.png" alt="" class="info__image" />
@@ -327,7 +332,6 @@
                     Перед началом каждого проекта мы составляем тщательное Техническое задание по
                     всем позициям и потребностям каждого заказчика.
                   </div>
-                  <button class="white info__action">Хочу консультацию</button>
                 </div>
                 <div class="info__block" id="control">
                   <img src="/assets/anapa1-DVoDBacF.jpg" alt="" class="info__image" />
@@ -338,7 +342,6 @@
                     Перед началом каждого проекта мы составляем тщательное Техническое задание по
                     всем позициям и потребностям каждого заказчика.
                   </div>
-                  <button class="white info__action">Хочу консультацию</button>
                 </div>
                 <div class="info__block" id="full">
                   <img src="/assets/anapa2-39hDAUlN.jpg" alt="" class="info__image" />
@@ -349,7 +352,6 @@
                     Перед началом каждого проекта мы составляем тщательное Техническое задание по
                     всем позициям и потребностям каждого заказчика.
                   </div>
-                  <button class="white info__action">Хочу консультацию</button>
                 </div>
               </div>
             </div>
@@ -380,7 +382,7 @@
               </div>
             </div>
             <div class="photo-group">
-              <img src="/assets/golf17-DfMzcFd4.jpg" alt="" class="projects-gallery__photo">
+              <img src="/assets/golf17-DfMzcFd4.jpg" alt="" class="projects-gallery__photo" />
             </div>
           </div>
           <div class="projects-gallery__info content">
@@ -389,7 +391,7 @@
               функциональности. Мы берем на себя все этапы: от идеи до полной реализации «под ключ»,
               чтобы вы могли наслаждаться идеальным пространством без забот.
             </div>
-            <button class="projects-gallery__action white">Интересно</button>
+            <button class="projects-gallery__action white open-popup" data-popup="consult">Интересно</button>
           </div>
         </div>
         <div class="steps">
@@ -445,7 +447,7 @@
                     <div class="slide-block__item">Сводная ведомость</div>
                   </div>
                   <div class="slide-block__price">2 400 ₽ м2</div>
-                  <button class="slide-block__action white">Оставить заявку</button>
+                  <button class="slide-block__action white open-popup" data-popup="application">Оставить заявку</button>
                 </div>
                 <div class="swiper-slide__block">
                   <div class="slide-block__info">Получите 10% скидку</div>
@@ -490,7 +492,10 @@
             </div>
           </div>
           <div class="reviews-buttons__select">
-            <div class="reviews-buttons__select-item reviews-buttons__select-selected" data-filter="all">
+            <div
+              class="reviews-buttons__select-item reviews-buttons__select-selected"
+              data-filter="all"
+            >
               <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.25%207.5V18.75H7.5V13.75C7.5%2012.3693%208.61929%2011.25%2010%2011.25C11.3807%2011.25%2012.5%2012.3693%2012.5%2013.75V18.75H18.75V7.5L10%200L1.25%207.5Z'%20fill='white'/%3e%3c/svg%3e" /> 5.0&nbsp;&nbsp;&nbsp;Все отзывы
             </div>
             <div class="reviews-buttons__select-items">
@@ -516,7 +521,11 @@
                 Houzz.ru
               </div>
             </div>
-            <input type="hidden" name="reviews-buttons__select-value" class="reviews-buttons__select-value" />
+            <input
+              type="hidden"
+              name="reviews-buttons__select-value"
+              class="reviews-buttons__select-value"
+            />
           </div>
 
           <div class="swiper-container reviews-slider">
@@ -535,6 +544,97 @@
           </div>
         </div>
 
+        <div class="contact">
+          <div class="map" id="map">
+            <script
+              type="text/javascript"
+              charset="utf-8"
+              async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9b8a85640b21b674c3a193acde0afdc4776839417ceee36408eb0e221092575f&amp;width=659&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
+            ></script>
+          </div>
+          <div class="contact-block">
+            <div class="contact-block__top">
+              <div class="contact__logo logo">
+                <div class="logo__first">AD</div>
+                <div class="logo__second">design</div>
+              </div>
+              <div class="contact__text">
+                Разработка дизайн проектов, архитектурных&nbsp;и&nbsp;ландшафтных решений
+              </div>
+              <div class="contact__link">
+                <a href="#" class="mail"></a>
+                <a href="#" class="phone"></a>
+              </div>
+            </div>
+            <div class="contact-block__middle">
+              <div class="department">
+                <div class="department-name">Дизайн</div>
+                <a class="department-phone" href="#">+7(918)399-88-92</a>
+                <a class="department-mail" href="#">alina05@yandex.ru</a>
+              </div>
+              <div class="department-collapse collapse-hide">
+                <div class="department">
+                  <div class="department-name">Архитектура</div>
+                  <a class="department-phone" href="#">+7(910)345-96-06</a>
+                  <a class="department-mail" href="#">shatov.ivan-shatov@yandex.ru</a>
+                </div>
+                <div class="department">
+                  <div class="department-name">Ландшафт</div>
+                  <a class="department-phone" href="#">+7(900)241-40-71</a>
+                  <a class="department-mail" href="#">alina05@yandex.ru</a>
+                </div>
+              </div>
+              <div class="contact__collapse">
+                <div class="contact__collapse-show">Показать еще</div>
+                <div class="contact__collapse-hide">Скрыть</div>
+              </div>
+            </div>
+            <div class="contact-block__bottom">
+              <button class="white open-popup" data-popup="application">Оставить заявку</button>
+              <button class="red">Построить маршрут</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-wrapeer">
+          <div class="form-block">
+            <div class="form__time">Время пришло</div>
+            <div class="form__title">
+              Оставьте<br />
+              заявку на работу
+            </div>
+            <div class="form__text">
+              Наши менеджеры перезвонят<br />
+              вам в течении 15 минут
+            </div>
+            <form action="#" class="form">
+              <div class="form-input">
+                <input type="text" id="form-name" placeholder=" " />
+                <label for="form-name">Ваше имя</label>
+              </div>
+              <div class="form-input">
+                <input type="text" id="form-phone" placeholder=" " />
+                <label for="form-phone">Ваш номер</label>
+              </div>
+              <div class="form-input">
+                <select type="text" id="form-name">
+                  <option value="1">направление 1</option>
+                  <option value="2">направление 2</option>
+                  <option value="3">направление 3</option>
+                </select>
+                <label for="form-name"> Выберите направление</label>
+              </div>
+              <button class="form-button white">Оставить заявку</button>
+              <div class="form__feedback">
+                Оставляя заявку вы соглашаетесь с
+                <a href="#">политикой конфендициальности ADDesign</a>
+              </div>
+            </form>
+          </div>
+          <a href="#" class="sale-link">Секретная скидка 15% для своих клиентов -></a>
+        </div>
+
         <div class="blog-block">
           <div class="blog-block__title">Расскажем ещё больше в&nbsp;блоге</div>
           <div class="blog-block__items">
@@ -542,7 +642,7 @@
               <img src="/assets/blog1-Bsyg69Ky.png" alt="" />
               <div class="blog-block__item-top">
                 <div class="blog-block__item-date">12 июля</div>
-                <div class="blog-block__item-view">2 </div>
+                <div class="blog-block__item-view">2</div>
               </div>
               <div class="blog-block__item-bottom">
                 <div class="blog-block__item-title">
@@ -651,7 +751,7 @@
                 <a id="social-vk" class="footer__link-black" href="#">Вконтакте</a>
               </div>
               <div class="footer__buttons-second">
-                <button id="feedback-btn" class="footer__button white">Оставить заявку</button>
+                <button  class="footer__button white open-popup" data-popup="application">Оставить заявку</button>
               </div>
             </div>
           </div>
@@ -700,6 +800,119 @@
           </div>
         </div>
       </footer>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-container">
+      <!-- Попап 1 -->
+      <div class="popup" data-popup-type="question">
+        <button class="close-popup">&times;</button>
+        <div class="popup-content">
+          <div class="popup-content">
+            <div class="popup__title">Поможем определиться</div>
+            <div class="popup__subtitle">Напишите нашему менеджеру, он свяжется с вами чтобы решить ваш вопрос</div>
+            <form class="popup__form">
+              <textarea
+                type="text"
+                id="question"
+                name="question"
+                placeholder="Вопрос&#10;в две&#10;или три строки&#10;актоматом сам "
+                required
+                class="popup__input"
+              ></textarea>
+              <input
+                type="tel"
+                id="phone2"
+                name="phone"
+                placeholder="+7"
+                required
+                class="popup__input"
+              />
+              <button type="submit" class="white">Отправить вопрос</button>
+              <div class="popup__info">
+                Оставляя заявку вы соглашаетесь с политикой <a href="#">конфендициальности ADDesign</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Попап 2 -->
+      <div class="popup" data-popup-type="application">
+        <button class="close-popup"></button>
+        <div class="popup-content">
+          <div class="popup__teaser">Время пришло</div>
+          <div class="popup__title">Оставьте заявку&nbsp;на&nbsp;работу</div>
+          <div class="popup__subtitle">Наши менеджеры перезвонят вам в течении 15 минут</div>
+          <form class="popup__form">
+            <input
+              type="tel"
+              id="phone1"
+              name="phone"
+              placeholder="+7"
+              required
+              class="popup__input"
+            />
+            <button type="submit" class="white">Отправить заявку</button>
+            <div class="popup__info">
+              Оставляя заявку вы соглашаетесь с политикой <a href="#">конфендициальности ADDesign</a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Попап 4 -->
+      <div class="popup" data-popup-type="consult">
+        <button class="close-popup"></button>
+        <div class="popup-content">
+          <div class="popup__title">Оставьте заявку на&nbsp;консультацию</div>
+          <div class="popup__subtitle">Наши менеджеры перезвонят вам в течении 15 минут</div>
+          <form class="popup__form">
+            <input
+              type="tel"
+              id="phone5"
+              name="phone"
+              placeholder="+7"
+              required
+              class="popup__input"
+            />
+            <button type="submit" class="white">Отправить заявку</button>
+            <div class="popup__info">
+              Оставляя заявку вы соглашаетесь с политикой <a href="#">конфендициальности ADDesign</a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Попап 3 -->
+      <div class="popup" data-popup-type="price">
+        <button class="close-popup">&times;</button>
+        <div class="popup-content">
+          <div class="popup__title">Рассчитать стоимость</div>
+          <div class="popup__subtitle">Наши менеджеры перезвонят вам в течении 15 минут</div>
+          <form class="popup__form">
+            <textarea
+              type="text"
+              id="question"
+              name="question"
+              placeholder="Опишите ваш проект&#10;тип&#10;площадь&#10;другие ньюансы "
+              required
+              class="popup__input"
+            ></textarea>
+            <input
+              type="tel"
+              id="phone3"
+              name="phone"
+              placeholder="+7"
+              required
+              class="popup__input"
+            />
+            <button type="submit" class="white">Отправить заявку</button>
+            <div class="popup__info">
+              Оставляя заявку вы соглашаетесь с политикой <a href="#">конфендициальности ADDesign</a>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
