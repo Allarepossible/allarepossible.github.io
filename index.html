@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Авторский дизайн проект для вашего дома</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script type="module" crossorigin src="/assets/index-BRNgF7Fz.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CT4_GANe.css">
+    <script type="module" crossorigin src="/assets/index-Bsg0HXzA.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cglk-MBm.css">
   </head>
   <body class="body">
     <!-- Шапка -->
@@ -19,14 +19,15 @@
           </div>
 
           <div class="relative">
-            <div class="header__select">
-              <div class="header__select-selected">Краснодар</div>
-              <div class="header__select-items">
-                <div class="header__select-item" data-value="Москва">Москва</div>
-                <div class="header__select-item" data-value="Санкт-Петербург">Анапа</div>
-                <div class="header__select-item" data-value="Омск">Геленджик</div>
+            <div class="header__select" datatype="select">
+              <div class="header__select-selected" datatype="select-selected">Краснодар</div>
+              <div class="header__select-items" datatype="select-items">
+                <div class="header__select-item" data-value="Краснодар" datatype="select-item">Краснодар</div>
+                <div class="header__select-item" data-value="Москва" datatype="select-item">Москва</div>
+                <div class="header__select-item" data-value="Санкт-Петербург" datatype="select-item">Анапа</div>
+                <div class="header__select-item" data-value="Омск" datatype="select-item">Геленджик</div>
               </div>
-              <input type="hidden" name="header__select-value" class="header__select-value" />
+              <input type="hidden" name="header__select-value" class="header__select-value" datatype="select-value" />
             </div>
           </div>
         </div>
@@ -47,29 +48,29 @@
         </div>
       </header>
       <div id="header-menu" class="header__burger-menu">
-        <div class="footer__select">
-          <div class="footer__select-items">
-            <div class="footer__select-selected">Главная страница</div>
-            <a class="footer__select-item" href="#">Проекты</a>
-            <a class="footer__select-item" href="#">Ведение проектов</a>
-            <a class="footer__select-item" href="#">Процесс работы</a>
-            <a class="footer__select-item" href="#">Прайс-лист</a>
-            <a class="footer__select-item" href="#">Отзывы</a>
-            <a class="footer__select-item" href="#">Услуги</a>
+        <div class="nav">
+          <div class="nav-items">
+            <div class="nav-selected">Главная страница</div>
+            <a class="nav-item" href="#">Проекты</a>
+            <a class="nav-item" href="#">Ведение проектов</a>
+            <a class="nav-item" href="#">Процесс работы</a>
+            <a class="nav-item" href="#">Прайс-лист</a>
+            <a class="nav-item" href="#">Отзывы</a>
+            <a class="nav-item" href="#">Услуги</a>
           </div>
           <div class="footer__col">
-            <div class="footer__select-items">
-              <div class="footer__select-selected">Портфолио</div>
-              <a class="footer__select-item" href="#">Дизайн</a>
-              <a class="footer__select-item" href="#">Архитектура</a>
-              <a class="footer__select-item" href="#">Ландшафт</a>
+            <div class="nav-items">
+              <div class="nav-selected">Портфолио</div>
+              <a class="nav-item" href="#">Дизайн</a>
+              <a class="nav-item" href="#">Архитектура</a>
+              <a class="nav-item" href="#">Ландшафт</a>
             </div>
-            <div class="footer__select-items">
-              <div class="footer__select-selected">Другое</div>
-              <a class="footer__select-item" href="#">О нас</a>
-              <a class="footer__select-item" href="#">Контакты</a>
-              <a class="footer__select-item" href="#">Блог</a>
-              <a class="footer__select-item" href="#">Акции</a>
+            <div class="nav-items">
+              <div class="nav-selected">Другое</div>
+              <a class="nav-item" href="#">О нас</a>
+              <a class="nav-item" href="#">Контакты</a>
+              <a class="nav-item" href="#">Блог</a>
+              <a class="nav-item" href="#">Акции</a>
             </div>
           </div>
         </div>
@@ -87,7 +88,7 @@
           <button class="banner__button white">Хочу консультацию</button>
         </div>
         <div class="manager">
-          <img class="manager__photo" src="/assets/team2-4KsdnBeg.png" alt="" />
+          <img class="manager__photo" src="/assets/team2-D24uLcXQ.png" alt="" />
           <div class="manager__info">
             <div class="manager__name">Иванова Анастасия</div>
             <div class="manager__description">
@@ -149,9 +150,9 @@
         <div class="info-block">
           <div class="info-block__teams">
             <div class="project-team">
-              <img src="/assets/team1-CtHVUHm9.png" alt="" class="project-team__member" />
-              <img src="/assets/team2-4KsdnBeg.png" alt="" class="project-team__member" />
-              <img src="/assets/team3-Bipwe13Z.png" alt="" class="project-team__member" />
+              <img src="/assets/team1-yuhIk6ri.png" alt="" class="project-team__member" />
+              <img src="/assets/team2-D24uLcXQ.png" alt="" class="project-team__member" />
+              <img src="/assets/team3-BICAg98f.png" alt="" class="project-team__member" />
               <div class="project-team__count project-team__member">+12</div>
               <div class="project-team__info">
                 <div class="project-team__name">Addesign</div>
@@ -197,13 +198,22 @@
               <button class="slider-btn swiper-button-prev prev"></button>
               <button class="slider-btn swiper-button-next next"></button>
             </div>
-            <div class="filter-buttons__select">
-              <div class="filter-buttons__select-selected" data-category="all">
+            <div class="filter-buttons__select" datatype="select">
+              <div class="filter-buttons__select-selected" datatype="select-selected" data-category="all">
                 <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.25%207.5V18.75H7.5V13.75C7.5%2012.3693%208.61929%2011.25%2010%2011.25C11.3807%2011.25%2012.5%2012.3693%2012.5%2013.75V18.75H18.75V7.5L10%200L1.25%207.5Z'%20fill='white'/%3e%3c/svg%3e" /> Все проекты
               </div>
-              <div class="filter-buttons__select-items">
+              <div class="filter-buttons__select-items" datatype="select-items">
                 <div
                   class="filter-buttons__select-item sld-btn"
+                  datatype="select-item"
+                  data-category="all"
+                  data-value="all"
+                >
+                  <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.25%207.5V18.75H7.5V13.75C7.5%2012.3693%208.61929%2011.25%2010%2011.25C11.3807%2011.25%2012.5%2012.3693%2012.5%2013.75V18.75H18.75V7.5L10%200L1.25%207.5Z'%20fill='white'/%3e%3c/svg%3e" /> Все проекты
+                </div>
+                <div
+                  class="filter-buttons__select-item sld-btn"
+                  datatype="select-item"
                   data-category="design"
                   data-value="design"
                 >
@@ -211,6 +221,7 @@
                 </div>
                 <div
                   class="filter-buttons__select-item sld-btn"
+                  datatype="select-item"
                   data-category="architecture"
                   data-value="architecture"
                 >
@@ -218,6 +229,7 @@
                 </div>
                 <div
                   class="filter-buttons__select-item sld-btn"
+                  datatype="select-item"
                   data-category="landscape"
                   data-value="landscape"
                 >
@@ -228,6 +240,7 @@
                 type="hidden"
                 name="filter-buttons__select-value"
                 class="filter-buttons__select-value"
+                datatype="select-value"
               />
             </div>
           </div>
@@ -491,17 +504,27 @@
               <button class="tab" data-filter="houzz">Houzz.ru</button>
             </div>
           </div>
-          <div class="reviews-buttons__select">
+          <div class="reviews-buttons__select" datatype="select">
             <div
               class="reviews-buttons__select-item reviews-buttons__select-selected"
+              datatype="select-selected"
               data-filter="all"
             >
               <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.25%207.5V18.75H7.5V13.75C7.5%2012.3693%208.61929%2011.25%2010%2011.25C11.3807%2011.25%2012.5%2012.3693%2012.5%2013.75V18.75H18.75V7.5L10%200L1.25%207.5Z'%20fill='white'/%3e%3c/svg%3e" /> 5.0&nbsp;&nbsp;&nbsp;Все отзывы
             </div>
-            <div class="reviews-buttons__select-items">
+            <div class="reviews-buttons__select-items" datatype="select-items">
+              <div
+                class="reviews-buttons__select-item sld-btn"
+                data-filter="all"
+                datatype="select-item"
+                data-value="all"
+              >
+                <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.25%207.5V18.75H7.5V13.75C7.5%2012.3693%208.61929%2011.25%2010%2011.25C11.3807%2011.25%2012.5%2012.3693%2012.5%2013.75V18.75H18.75V7.5L10%200L1.25%207.5Z'%20fill='white'/%3e%3c/svg%3e" /> 5.0&nbsp;&nbsp;&nbsp;Все отзывы
+              </div>
               <div
                 class="reviews-buttons__select-item sld-btn"
                 data-filter="yandex"
+                datatype="select-item"
                 data-value="yandex"
               >
                 Яндекс Услуги
@@ -509,6 +532,7 @@
               <div
                 class="reviews-buttons__select-item sld-btn"
                 data-filter="profi"
+                datatype="select-item"
                 data-value="profi"
               >
                 Profi.ru
@@ -516,6 +540,7 @@
               <div
                 class="reviews-buttons__select-item sld-btn"
                 data-filter="houzz"
+                datatype="select-item"
                 data-value="houzz"
               >
                 Houzz.ru
@@ -523,6 +548,7 @@
             </div>
             <input
               type="hidden"
+              datatype="select-value"
               name="reviews-buttons__select-value"
               class="reviews-buttons__select-value"
             />
@@ -618,12 +644,15 @@
                 <label for="form-phone">Ваш номер</label>
               </div>
               <div class="form-input">
-                <select type="text" id="form-name">
-                  <option value="1">направление 1</option>
-                  <option value="2">направление 2</option>
-                  <option value="3">направление 3</option>
-                </select>
-                <label for="form-name"> Выберите направление</label>
+                <div class="form__select" datatype="select">
+                  <div class="form__select-selected" datatype="select-selected">Выберите направление</div>
+                  <div class="form__select-items" datatype="select-items">
+                    <div class="form__select-item" data-value="Дизайн" datatype="select-item">Дизайн</div>
+                    <div class="form__select-item" data-value="Архитектура" datatype="select-item">Архитектура</div>
+                    <div class="form__select-item" data-value="Ландшафт" datatype="select-item">Ландшафт</div>
+                  </div>
+                  <input type="hidden" name="header__select-value" class="form__select-value" datatype="select-value" />
+                </div>
               </div>
               <button class="form-button white">Оставить заявку</button>
               <div class="form__feedback">
@@ -759,28 +788,28 @@
             <b>Авторские</b> дизайны проектов <b>для&nbsp;домов&nbsp;и квартир.</b> Архитектурные
             и&nbsp;ландшафтные решения
           </div>
-          <div class="footer__select">
-            <div class="footer__select-items">
-              <div class="footer__select-selected">Главная страница</div>
-              <a class="footer__select-item" href="#">Проекты</a>
-              <a class="footer__select-item" href="#">Ведение проектов</a>
-              <a class="footer__select-item" href="#">Процесс работы</a>
-              <a class="footer__select-item" href="#">Прайс-лист</a>
-              <a class="footer__select-item" href="#">Отзывы</a>
-              <a class="footer__select-item" href="#">Услуги</a>
+          <div class="nav">
+            <div class="nav-items">
+              <div class="nav-selected">Главная страница</div>
+              <a class="nav-item" href="#">Проекты</a>
+              <a class="nav-item" href="#">Ведение проектов</a>
+              <a class="nav-item" href="#">Процесс работы</a>
+              <a class="nav-item" href="#">Прайс-лист</a>
+              <a class="nav-item" href="#">Отзывы</a>
+              <a class="nav-item" href="#">Услуги</a>
             </div>
-            <div class="footer__select-items">
-              <div class="footer__select-selected">Портфолио</div>
-              <a class="footer__select-item" href="#">Дизайн</a>
-              <a class="footer__select-item" href="#">Архитектура</a>
-              <a class="footer__select-item" href="#">Ландшафт</a>
+            <div class="nav-items">
+              <div class="nav-selected">Портфолио</div>
+              <a class="nav-item" href="#">Дизайн</a>
+              <a class="nav-item" href="#">Архитектура</a>
+              <a class="nav-item" href="#">Ландшафт</a>
             </div>
-            <div class="footer__select-items">
-              <div class="footer__select-selected">Другое</div>
-              <a class="footer__select-item" href="#">О нас</a>
-              <a class="footer__select-item" href="#">Контакты</a>
-              <a class="footer__select-item" href="#">Блог</a>
-              <a class="footer__select-item" href="#">Акции</a>
+            <div class="nav-items">
+              <div class="nav-selected">Другое</div>
+              <a class="nav-item" href="#">О нас</a>
+              <a class="nav-item" href="#">Контакты</a>
+              <a class="nav-item" href="#">Блог</a>
+              <a class="nav-item" href="#">Акции</a>
             </div>
           </div>
           <div class="footer__contacts">
